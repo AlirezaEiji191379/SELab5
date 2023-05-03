@@ -10,7 +10,7 @@ public class RectangleTests {
 
     @ParameterizedTest
     @CsvSource({"0","-1"})
-    public void SetWidth_ShouldThrowsException_WhenTheRectangleWidthOrHeightAreInvalid(int height)
+    public void SetWidth_ShouldThrowsException_WhenTheRectangleWidthIsInvalid(int height)
     {
         assertThrows(InvalidLengthException.class,() -> {
             var fakeRectangle = new Rectangle(5,6);
@@ -20,7 +20,7 @@ public class RectangleTests {
 
     @ParameterizedTest
     @CsvSource({"0","-1"})
-    public void SetHeight_ShouldThrowsException_WhenTheRectangleWidthOrHeightAreInvalid(int weight)
+    public void SetHeight_ShouldThrowsException_WhenTheRectangleHeightIsInvalid(int weight)
     {
         assertThrows(InvalidLengthException.class,() -> {
             var fakeRectangle = new Rectangle(5,6);
