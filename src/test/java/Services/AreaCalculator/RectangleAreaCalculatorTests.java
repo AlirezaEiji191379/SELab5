@@ -1,8 +1,8 @@
 package Services.AreaCalculator;
 
+import Exceptions.InvalidLengthException;
 import Services.Abstractions.IShapeAreaCalculator;
 import Shapes.Rectangle;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,8 +17,7 @@ public class RectangleAreaCalculatorTests {
 
     @ParameterizedTest
     @CsvSource({"1,2,2","2,3,6","10,5,50"})
-    public void Calculate_ShouldCalculateAreaCorrectly_WhenTheRectangleWidthAndHeightAreValid(int weight,int height,int expectedArea)
-    {
+    public void ComputeArea_ShouldCalculateAreaCorrectly_WhenTheRectangleWidthAndHeightAreValid(int weight,int height,int expectedArea) throws InvalidLengthException {
         //Arrange
         var fakeRectangle = new Rectangle(weight,height);
         //Act
@@ -27,7 +26,4 @@ public class RectangleAreaCalculatorTests {
         assertEquals(expectedArea,result);
 
     }
-
-
-
 }
