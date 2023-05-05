@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30e26711-eef1-4b70-bbb6-967147de3d81" name="Changes" comment="1">
+    <list default="true" id="30e26711-eef1-4b70-bbb6-967147de3d81" name="Changes" comment="Part 1 was completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683130178144</updated>
       <workItem from="1683130178788" duration="1000" />
-      <workItem from="1683289465478" duration="2201000" />
+      <workItem from="1683289465478" duration="3792000" />
     </task>
     <task id="LOCAL-00001" summary="Add Readme and initail specifications of project!">
       <created>1683290471266</created>
@@ -71,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683290555999</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Part 1 was completed">
+      <created>1683291771560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683291771560</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Readme and initail specifications of project!" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Part 1 was completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 1 was completed" />
   </component>
 </project>
